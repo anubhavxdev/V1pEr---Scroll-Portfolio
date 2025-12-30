@@ -1,33 +1,43 @@
-# Cinematic 3D Scroll Experiences with GSAP
+# V1pEr - Techy // Cinematic 3D Scroll Portfolio
 
-Demos for the tutorial on how to build smooth, immersive 3D scroll experiences using GSAP, WebGL, and Three.js. The first demo focuses on shader-based depth — a rotating WebGL cylinder surrounded by reactive particles — while the second turns a 3D scene into a scroll-controlled showcase with moving cameras and animated typography.
+A high-performance, immersive 3D developer portfolio built with **React**, **Three.js**, and **GSAP**. This project showcases a "Gen Z Techy" aesthetic, blending cinematic scrolling with interactive 3D elements to present my work and technical skills.
 
-![Image Title](https://tympanus.net/codrops/wp-content/uploads/2025/11/cinematicGSAP_featured-1.jpeg)
+## 🚀 Features
 
-[Article on Codrops](https://tympanus.net/codrops/?p=103299)
+-   **Cinematic Scroll Experience**: Seamless transitions between 3D scenes.
+-   **3D Cylinder Carousel**: Interactive project showcase using WebGL shaders and OGL.
+-   **Cyberpunk City Scene**: A scrolling journey through a 3D city environment powered by React Three Fiber.
+-   **Performance Optimized**: Smooth 60fps animations using GSAP ScrollTrigger and native WebGL.
+-   **Responsive Design**: Fully responsive layout that looks great on all devices.
 
-[Demo](https://tympanus.net/Tutorials/Cinematic3DScroll/)
+## 🛠️ Tech Stack
 
-## Installation
+-   **Frontend**: React (Vite), TypeScript
+-   **Animation**: GSAP (ScrollTrigger, ScrollSmoother)
+-   **3D / WebGL**: Three.js, React Three Fiber (@react-three/fiber), OGL
+-   **Styling**: Tailwind CSS
 
-```
+## 📦 Installation
+
+```bash
 # Install dependencies
 npm install
 
 # Start the development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-## Credits
+## 👨‍💻 Author
 
-- Images generated with [Midjourney](https://midjourney.com)
+**Anubhav Jaiswal (V1pEr)**
 
-## Misc
+-   **GitHub**: [anubhavxdev](https://github.com/anubhavxdev)
+-   **LinkedIn**: [Anubhav Jaiswal](https://www.linkedin.com/in/anubhavxdev/)
+-   **X (Twitter)**: [@Anubhavjai68749](https://x.com/Anubhavjai68749)
 
-Follow _Author_: [Twitter](https://x.com/JosephSan2301), [Instagram](https://www.instagram.com/joseph_santaamaria/), [GitHub](https://github.com/JosephASG), [LinkedIn](https://www.linkedin.com/in/joseph-san/)
-
-Follow Codrops: [X](http://www.x.com/codrops), [Facebook](https://www.facebook.com/codrops), [Instagram](https://www.instagram.com/codropsss/), [LinkedIn](https://www.linkedin.com/company/codrops/), [GitHub](https://github.com/codrops)
-
-## License
+## 📄 License
 
 [MIT](LICENSE)
