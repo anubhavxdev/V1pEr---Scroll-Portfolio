@@ -33,7 +33,6 @@ interface CylinderCarouselProps {
 
 export function CylinderCarousel({ containerRef }: CylinderCarouselProps) {
   document.title = 'V1pER - Techy';
-  const loaderRef = useRef<HTMLDivElement>(null);
 
   // Use passed ref or fallback
   const fallbackRef = useRef<HTMLDivElement>(null);
