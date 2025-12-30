@@ -17,4 +17,16 @@ export default defineConfig({
     port: 5173,
     allowedHosts: ['de2f3d5149df.ngrok-free.app'],
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'three-vendor': ['three', '@react-three/fiber', '@react-three/drei'],
+          'gsap-vendor': ['gsap'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000,
+  },
 });
