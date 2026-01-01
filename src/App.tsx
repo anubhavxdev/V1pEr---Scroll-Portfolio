@@ -36,6 +36,8 @@ function BodyClassSetter() {
   return null;
 }
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   return (
     <Router>
@@ -47,6 +49,7 @@ function App() {
           <Route path="/variant-2" element={<CinematicSceneShowcase containerRef={{ current: null }} />} />
         </Routes>
       </main>
+      <Analytics />
     </Router>
   );
 }
