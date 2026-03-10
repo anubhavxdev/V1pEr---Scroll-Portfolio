@@ -175,11 +175,6 @@ export default function CinematicSceneShowcase({ containerRef }: CinematicSceneP
       scenePerspectives.forEach((perspective, index) => {
         const textEl = textRefs.current[index];
         if (textEl) {
-          if (perspective.hideText) {
-            gsap.set(textEl, { opacity: 0, pointerEvents: 'none' });
-            return;
-          }
-
           const titleEl = textEl.querySelector('h2');
           const subtitleEl = textEl.querySelector('p');
 
