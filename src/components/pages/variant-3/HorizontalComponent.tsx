@@ -34,7 +34,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Sharp wit and a warm smile with magnetic presence.',
     rightLabel: 'PRESENCE',
     rightText: 'A timeless blend of poise and presence, effortlessly charismatic.',
-    image: '/img/portfolio/01.jpg',
+    image: '/projects/01.png',
     alt: 'Photo 9',
   },
   {
@@ -44,7 +44,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Quick mind and deep thoughts guided by penetrating insight.',
     rightLabel: 'KNOWLEDGE',
     rightText: 'Thoughtful clarity and intuition in every word.',
-    image: '/img/portfolio/02.jpg',
+    image: '/projects/02.png',
     alt: 'Photo 6',
   },
   {
@@ -54,7 +54,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Open heart and helping hands with a benevolent force.',
     rightLabel: 'COMPASSION',
     rightText: 'A gentle spirit and warmth in every action.',
-    image: '/img/portfolio/03.jpg',
+    image: '/projects/03.png',
     alt: 'Photo 8',
   },
   {
@@ -64,7 +64,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Fluid style and bold vision with a creative soul.',
     rightLabel: 'INNOVATION',
     rightText: 'Originality and skill fused into inspiring creation.',
-    image: '/img/portfolio/04.jpg',
+    image: '/projects/04.png',
     alt: 'Photo 12',
   },
   {
@@ -74,7 +74,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Strong presence and clear purpose that guide the path forward.',
     rightLabel: 'GUIDANCE',
     rightText: 'A powerful combination of vision and direction.',
-    image: '/img/portfolio/05.jpg',
+    image: '/projects/05.png',
     alt: 'Photo 5',
   },
   {
@@ -84,7 +84,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Refined taste and smooth demeanor with natural elegance.',
     rightLabel: 'POLISH',
     rightText: 'Poise and dignity in every movement.',
-    image: '/img/portfolio/01.jpg',
+    image: '/projects/01.png',
     alt: 'Photo 10',
   },
   {
@@ -94,7 +94,7 @@ const galleryItems: GalleryItem[] = [
     leftText: 'Fierce determination and endless energy.',
     rightLabel: 'ENTHUSIASM',
     rightText: 'Fire, focus, and dedication that motivates others.',
-    image: '/img/portfolio/02.jpg',
+    image: '/projects/02.png',
     alt: 'Photo 4',
   },
 ];
