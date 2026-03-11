@@ -25,8 +25,8 @@ export function CodropsFrame({
     { label: 'Developer by DAY', href: '/', current: true },
     { label: 'Gamer by NIGHT', href: '/', current: false },
   ],
-  tags = ['gsap', 'scrolltrigger', 'ogl', 'webgl', '3d'],
-  tagsLink = [],
+  // tags = ['gsap', 'scrolltrigger', 'ogl', 'webgl', '3d'],
+  // tagsLink = [],
 }: CodropsFrameProps) {
   return (
     <>
